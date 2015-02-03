@@ -1,5 +1,6 @@
 package com.cntg.practicas.terremotoapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,7 +32,14 @@ public class MainMenu extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent settingsIntent = new Intent(MainMenu.this, PreferenciasActivity.class);
+
+            startActivity(settingsIntent);
+        }else if (id == R.id.action_help) {
+            Intent helpIntent = new Intent(MainMenu.this, HelpActivity.class);
+
+            startActivity(helpIntent);
+
         }
 
         return super.onOptionsItemSelected(item);

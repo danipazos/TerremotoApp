@@ -1,0 +1,13 @@
+<resources>
+    <string name="settingsTitle">Preferencias</string>
+    <string name="rssTitle">RSS:</string>
+    <string name="frecuenciaTitle">Frecuencia:</string>
+
+    <string-array name="frecuencias_array">
+        <item>Nunca</item>
+        <item>Diario</item>
+        <item>Semanal</item>
+        <item>Automatico</item>
+    </string-array>
+
+</resources>

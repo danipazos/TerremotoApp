@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="urlRss"
+        android:dialogTitle="RSS:"
+        android:summary="Introduzca la URL del RSS que contiene la información sobre terremotos"
+        android:title="terremotosRSS"
+        />
+
+
+
+</PreferenceScreen>
